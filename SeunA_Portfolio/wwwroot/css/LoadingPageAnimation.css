@@ -1,0 +1,172 @@
+﻿/*Logo SVG Animation Loading---------------------- 
+-------------------------------------------------- */
+.LogoBtn {
+    animation: ease-in-out 1s LogoBtnLoading;
+}
+
+@keyframes LogoBtnLoading {
+    from {
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+
+.menuIcon {
+    animation: ease-in-out 1s menuIconBtnLoading;
+}
+
+@keyframes menuIconBtnLoading {
+    from {
+        opacity: 0;
+        transform: translateX(100px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+#loadingPage_Container{}
+#loadingPage_Wrapper {
+    overflow: hidden;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+#RevealTop {
+    width: 100%;
+    height: 60%;
+    background-color: #4B73FF;
+}
+
+.sliderReavelTop {
+    animation: ease forwards 3s RemovoRevealTop;
+}
+
+@keyframes RemovoRevealTop {
+    to {
+        transform: translateY(-1500px);
+    }
+}
+
+#RevealBottom {
+    width: 100%;
+    height: 40%;
+    background-color: white;
+}
+
+.sliderReavelBottom {
+    animation: ease forwards 3s RemovoRevealBottom;
+}
+
+@keyframes RemovoRevealBottom {
+    to {
+        transform: translateY(1500px);
+    }
+}
+
+#ContainerSVGLogoPageAnimation {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    z-index: 1;
+}
+
+#SVGLogoPageAnimation {
+    display: block;
+    margin: auto auto;
+    top: 50%;
+    -ms-transform: translateY(50%);
+    transform: translateY(50%);
+}
+#CircleLogoFill {
+    fill: none;
+}
+.CircleLogoFill {
+    animation: ease forwards 3s CircleLogoFill;
+}
+
+@keyframes CircleLogoFill {
+    /*from {
+        fill: none;
+    }*/
+
+    to {
+        fill: white;
+    }
+}
+
+#CircleLogoStroke {
+    stroke: white;
+    fill: none;
+    stroke-dasharray: 265;
+    stroke-dashoffset: 265;
+    stroke-width: 3px;
+}
+.CircleLogoStroke {
+    animation: ease forwards 3s CircleLogoStroke;
+}
+
+@keyframes CircleLogoStroke {
+/*    from {
+        stroke: white;
+        fill: none;
+        stroke-dasharray: 265;
+        stroke-dashoffset: 265;
+        stroke-width: 3px;
+    }*/
+
+    to {
+        stroke-dashoffset: 0;
+        stroke-dasharray: 0;
+        stroke: black;
+        fill: black;
+    }
+}
+/*LetterS*/
+#SFill {
+    transform: translateY(-300px);
+}
+.SFill {
+    /* transform: translateY(-300px);*/
+    animation: forwards 2s LogoLettersMove ease-in-out;
+}
+#AFill {
+    transform: translateY(300px);
+}
+.AFill {
+    /*transform: translateY(300px);*/
+    animation: forwards 2s LogoLettersMove ease-in-out;
+}
+
+@keyframes LogoLettersMove {
+    to {
+        transform: translateX(0px);
+        transform: translateY(0px);
+    }
+}
+
+#SOutline {
+    transform: translateX(300px);
+}
+.SOutline {
+    /*transform: translateX(300px);*/
+    animation: forwards 2s LogoLettersMove ease-in-out;
+}
+#AOutline {
+    transform: translateX(-300px);
+}
+.AOutline {
+   /* transform: translateX(-300px);*/
+    animation: forwards 2s LogoLettersMove ease-in-out;
+}

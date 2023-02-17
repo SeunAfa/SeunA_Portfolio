@@ -1,0 +1,117 @@
+﻿@{
+    ViewData["Title"] = "EventtAttic";
+}
+<section id="projectPageContainer" class="projectPageContainerTwo">
+    <div id="ProjectTitleContainerFour" class="ProjectTitleContainer bg-white">
+        <h1 class="text-center text-primary projectTitle">EventtAttic</h1>
+    </div>
+    <!--ProjectFinalOutcome_UXWireFrames-->
+    <div id="ProjectFinalOutcome_UXWireFramesContainer" class="">
+        <div id="ProjectFinalOutcome_Layout" class="ProjectFinalOutcome_LayoutEx">
+            <video class="videoProjectLaptop" width="400" height="240" loop autoplay muted controls>
+                <source src="/mp4/EventtAttic.mp4" type="video/mp4">
+                <source src="/mp4/EventtAttic.ogg" type="video/ogg">
+            </video>
+            <div id="TwoProjectSummary_Container" class="ProjectSummary_Container">
+                <h3 class="briefHeading text-white">The Brief</h3>
+                <p class="briefText text-white">
+                    build a e-commerce that allows users to view and book events.
+                </p>
+                <br />
+                <h3 class="briefHeading text-white">Success Criteria</h3>
+                <p class="briefText text-white">> Cookie-based authentication</p>
+                <p class="briefText text-white">
+                    > Role-based authorization
+                </p>
+                <p class="briefText text-white">
+                    > Role-based UI rendering
+                </p>
+                <p class="briefText text-white">
+                    > Dynamic rendering with ViewComponents
+                </p>
+                <p class="briefText text-white">
+                    > Online payments using Paypal SDK
+                </p>
+                <a id="hoverProjectBtn" class="visitProjectFour BackToListBtn btn btn-white BackToListBtnTwo" style="margin-top:30px;"
+                   href="https://eventtattic.azurewebsites.net/" target="ViewProjectFour">Visit Site</a>
+
+            </div>
+        </div>
+    </div>
+
+    <!--UXWireFrames-->
+    <div id="UXWireframes-ContainerLaptop UXWireframes-ContainerLaptopEventt" class="container">
+        <div id="UXWireframesContent-Container" class="UXWireframes-ContainerFour ">
+            <!--Row1-->
+            <div class="RowUXWireframes laptopRowUX">
+                <img class="laptopimageUX" src="~/images/PortfolioProjectsList/ProjectFour/EventtHomePg.png" />
+                <div class="Text_UXWireframes-Container">
+                    <h3 class="text-white">
+                        Search for events
+                    </h3>
+                    <p class="Text-UXWireframes text-white">
+                        Users can make a search based on event title.
+                    </p>
+                </div>
+            </div>
+            <!--Row2-->
+            <div class="RowUXWireframes laptopRowUX">
+                <img class="laptopimageUX" src="~/images/PortfolioProjectsList/ProjectFour/EventList.png" />
+                <div class="Text_UXWireframes-Container">
+                    <h3 class="text-white">
+                        Event List
+                    </h3>
+                    <p class="Text-UXWireframes text-white">
+                        Users can view the event status, price and locations. 
+                        They can add an event to thier basket if they wish.
+                    </p>
+                </div>           
+            </div>
+            <!--Row3-->
+            <div class="RowUXWireframes laptopRowUX">
+                <img class="laptopimageUX" src="~/images/PortfolioProjectsList/ProjectFour/CreateEvent.png" />
+                <div class="Text_UXWireframes-Container">
+                    <h3 class="text-white">
+                        Admin Role-based UI
+                    </h3>
+                    <p class="Text-UXWireframes text-white">
+                        Admin User can create, update and edit events and its related data.
+                    </p>
+                </div>
+            </div>
+            <!--Row4-->
+            <div class="RowUXWireframes laptopRowUX">
+                <img class="laptopimageUX" src="~/images/PortfolioProjectsList/ProjectFour/EventDetails.png" />
+                <div class="Text_UXWireframes-Container">
+                    <h3 class="text-white">
+                        View Event details
+                    </h3>
+                    <p class="Text-UXWireframes text-white">
+                        Users can view events in further detail such as, artists performing or event organisers.
+                    </p>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <br />
+    <br />
+
+    <a id="hoverProjectBtn" class="BackToListBtn btn btn-white BackToListBtnTwo" asp-controller="Home" asp-action="PortfolioProjects">Back To List</a>
+
+</section>
+<div class="bgStripe"></div>
+<div class="bgStripe bgStripe2"></div>
+<div class="bgStripe bgStripe3"></div>
+@section Scripts{
+    <script>
+        const visitProjectFour = document.getElementsByClassName(".visitProjectFour");
+        visitProjectFour.addEventListener("click", OpenNewTabProjectFour);
+
+        function OpenNewTabProjectFour() {
+
+            let ref = window.open('', "ViewProjectFour");
+
+        }
+    </script>
+}

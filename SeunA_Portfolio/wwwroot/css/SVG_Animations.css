@@ -1,0 +1,819 @@
+/*Start Of - HomePg-----------
+----------------------------*/
+
+/*---Welcome Icons---*/
+@keyframes MyNameTextAnimation {
+    to {
+        stroke-dashoffset: 0;
+        stroke-dasharray: 0;
+        fill: white;
+    }
+}
+
+@keyframes MyNameTextFillAnimation {
+    to {
+        fill: white;
+    }
+}
+
+@keyframes WelcomeMsg {
+    from {
+        transform: scale(2.8,2.8);
+        margin-top: 450px;
+    }
+
+    to {
+        transform: scale();
+        margin-top: 0px;
+    }
+}
+
+@keyframes designWebWelcomeMSGIconWrapper {
+    from {
+        display: none;
+        opacity: 0;
+        margin-top: 550px;
+    }
+
+    to {
+        display: block;
+        opacity: 1;
+        margin-top: 80px;
+    }
+}
+
+@keyframes dotIndicatore {
+    from {
+        margin-top: 0px;
+    }
+
+    to {
+        margin-top: 20px;
+    }
+}
+
+@keyframes homePgSvgIcons {
+    from {
+        margin-left: 1000px;
+        opacity: 0;
+        transform: scale(2,2);
+    }
+
+    to {
+        margin-left: 0px;
+        opacity: 1;
+        transform: scale(1.2,1.2);
+    }
+}
+/*homePgSvgIcons--Components--
+----------------------------*/
+/*CSS*/
+#CssFileIcon {
+    transform: translateX(-200px);
+}
+
+.CssFileIcon {
+    animation: CssFileIcon 2s ease forwards;
+}
+
+@keyframes CssFileIcon {
+    from {
+        transform: translateX(-200px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+
+.cssTextRight {
+    animation: cssTextRight 2s ease infinite;
+}
+
+@keyframes cssTextRight {
+    30% {
+        transform: translateX(-10px);
+        opacity: 0;
+    }
+
+    80% {
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+
+#LeftWindow-CssContent {
+    animation: LeftWindow-CssContent 2s ease infinite;
+}
+
+@keyframes LeftWindow-CssContent {
+    from {
+        transform: translateY(20px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+
+#cssWindowRight {
+    animation: cssPanelBadge 2s ease infinite;
+}
+
+#cssWindowLeft {
+    animation: cssPanelBadge 2s ease infinite;
+}
+
+@keyframes cssPanelBadge {
+    from {
+        transform: translateY(-20px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+/*Html*/
+#HtmlFileIcon {
+}
+
+.HtmlFileIcon {
+    animation: HtmlFileIcon 1s ease forwards;
+    opacity: 0;
+    animation-delay: 1s;
+}
+
+@keyframes HtmlFileIcon {
+    from {
+        transform: translateY(-50px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+
+
+#Vector_148 {
+    transform: translateX(-17px);
+    opacity: 0;
+    animation: tagHtml 2s ease infinite;
+}
+
+#Vector_153 {
+    transform: translateX(17px);
+    opacity: 0;
+    animation: tagHtml 2s ease infinite;
+}
+
+@keyframes tagHtml {
+    to {
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+
+#Vector_149 {
+    opacity: 0;
+    transform: translateY(15px);
+    animation: htmlIconText 2s ease infinite;
+}
+
+#Vector_150 {
+    opacity: 0;
+    transform: translateY(-15px);
+    animation: htmlIconText 2s ease infinite;
+}
+
+#Vector_151 {
+    opacity: 0;
+    transform: translateY(15px);
+    animation: htmlIconText 2s ease infinite;
+}
+
+#Vector_152 {
+    opacity: 0;
+    transform: translateY(-15px);
+    animation: htmlIconText 2s ease infinite;
+}
+
+@keyframes htmlIconText {
+    to {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+/*Js*/
+#JsFileIcon {
+}
+
+.JsFileIcon {
+    animation: laptopIcon 2s ease forwards;
+}
+
+@keyframes JsFileIcon {
+    from {
+        opacity: 0;
+        transform: translateX(-200px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+#JSBackground-blue {
+    animation: jsBackgroundFilesSequnce 2s ease infinite;
+}
+
+@keyframes jsBackgroundFilesSequnce {
+    from {
+        opacity: 0;
+        transform: translateX(-10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+#JSBackground-white {
+    animation: jsBackgroundFilesSequnceTwo 2s ease infinite;
+}
+
+@keyframes jsBackgroundFilesSequnceTwo {
+    from {
+        opacity: 0;
+        transform: translateX(-30px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+#JSBackground-badge {
+    animation: jsBackgroundFilesSequnceTwo 2s ease infinite;
+}
+
+@keyframes jsBackgroundFilesSequnceTwo {
+    from {
+        opacity: 0;
+        transform: translateX(-20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+/*laptop*/
+#laptopIcon {
+}
+
+.laptopIcon {
+    animation: laptopIcon 2s ease forwards;
+}
+
+@keyframes laptopIcon {
+    from {
+        transform: translateX(200px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+
+#laptopText {
+    animation: laptopText 2s ease infinite;
+}
+
+@keyframes laptopText {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+#laptopCircle {
+    animation: laptopCircle 2s infinite ease;
+}
+
+@keyframes laptopCircle {
+    10% {
+        transform: translateX(15px);
+    }
+
+    20% {
+        transform: translateX(25px);
+    }
+
+    30% {
+        transform: translateX(45px);
+        transform: translateY(5px);
+    }
+
+    40% {
+        transform: translateX(-35px);
+        transform: translateY(-10px);
+    }
+
+    50% {
+        transform: translateX(65px);
+        transform: translateY(-15px);
+    }
+
+    60% {
+        transform: translateX(95px);
+        transform: translateY(5px);
+    }
+
+    100% {
+        transform: translateY(-30px);
+        transform: translateX(25px);
+    }
+}
+/*Mobile*/
+#mobileIcon {
+}
+
+.mobileIcon {
+    animation: mobileIcon 2s forwards ease;
+}
+
+@keyframes mobileIcon {
+    from {
+        opacity: 0;
+        transform: translateY(-40px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+#mobileIconText {
+    animation: mobileIconText 2s infinite ease;
+}
+
+@keyframes mobileIconText {
+    from {
+        opacity: 0;
+        transform: translateY(55px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+/*Background*/
+#backgroundDesign {
+}
+
+.backgroundDesign {
+    animation: backgroundDesign 10s infinite ease;
+    transition: transform 4s ease;
+}
+
+@keyframes backgroundDesign {
+    0% {
+    }
+
+    25% {
+        transform: translateY(-5px);
+        transform: translateX(25px);
+        transform: scale(1.2);
+    }
+
+    50% {
+        transform: rotateY(35deg);
+        transform: translateY(-35px);
+    }
+
+    100% {
+        transform: scaleX(24);
+        transform: translateY(-20px);
+        transform: rotateY(35deg);
+    }
+}
+
+/*Back to TopBtn*/
+@keyframes TopBtn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+/*HomePg -- Background*/
+@keyframes HomePgBackgroundAnimation {
+  0% {
+    transform:translateX(-45%);
+  }
+  100% {
+    transform:translateX(35%);
+  }
+}
+/*End Of - HomePg-----------
+----------------------------*/
+
+
+
+
+/*--------Start Of AboutMe Animation
+---------------------------------*/
+ /*--AboutMe--*/
+@keyframes aboutMeFadeUp {
+    from {
+        transform: translateY(350px);
+       opacity:0;       
+    }
+    to {
+        transform: translateY(0px);
+       opacity:1;        
+    } 
+}
+
+@keyframes aboutMeSkills  {
+    from {
+        transform: translateY(250px);
+       opacity:0;  
+
+    }
+    to {
+        transform: translateY(0px);
+       opacity:1;        
+    } 
+}
+
+#Mobile {
+    transform: translateY(-120px);
+    animation: MobileSkills 2s infinite;
+}
+#textOnScreen {
+    transform: translateY(120px);
+    animation: MobileSkills 2s infinite;
+}
+#BehindtextOnScreen {
+    transform: skewX(-90deg);
+    animation: MobileSkills 2s infinite;
+}
+@keyframes MobileSkills {
+    to {
+        transform: translateY(0px);
+        transform:skewX(0deg);
+        animation-delay:1s;
+    }
+}
+#window {
+    transform: translateY(-120px);
+    opacity: 0;
+    animation: WindowScreenMedia infinite 2s;
+}
+#window_2 {
+    transform: translateY(-120px);
+    opacity: 0;
+    animation: WindowScreenMedia infinite 2s;
+}
+#window_3 {
+    transform: translateY(120px);
+    opacity: 0;
+    animation: WindowScreenMedia infinite 2s;
+}
+#window_4 {
+    transform: translateY(145px);
+    opacity: 0;
+    animation: WindowScreenMedia infinite 2s;
+}
+
+
+#ScreenMedia01 {
+    transform: translateY(-120px);
+    opacity: 0;
+    animation: WindowScreenMedia infinite 2s;
+}
+#ScreenMedia02 {
+    transform: translateY(-120px);
+    opacity: 0;
+    animation: WindowScreenMedia infinite 2s;
+}
+#ScreenMedia03 {
+    transform: translateY(120px);
+    opacity: 0;
+    animation: WindowScreenMedia infinite 2s;
+}
+#ScreenMedia04 {
+    transform: translateY(145px);
+    opacity: 0;
+    animation: WindowScreenMedia infinite 2s;
+}
+@keyframes WindowScreenMedia{
+    to {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+.windowIcons {
+    transform: translateX(-40px);
+    opacity: 0;
+    animation: windowIcons 2s infinite;
+}
+@keyframes windowIcons {
+
+   to {
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+#UXlines {
+    transform: skewX(130deg);
+    opacity: 0;
+    animation: UXlines infinite 2s;
+}
+@keyframes UXlines{
+    to {
+        transform: skewX(0deg);
+        opacity: 1;
+    }
+}
+#Shadows {
+    transform: translateX(-200px);
+    opacity: 0;
+    animation: FloorShadows infinite 2s;
+}
+@keyframes FloorShadows {
+    to {
+        transform: translateY(0px);
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+#Floor {
+    transform: translateY(130px);
+    animation: FloorShadows forwards 2s;
+}
+#ServerLinesRight-TOP_55 {
+    stroke: white;
+    stroke-width: 0.2px;
+    animation: ServerLinesLight infinite 1s;
+}
+
+#ServerLinesRight-TOP_56 {
+    stroke: white;
+    stroke-width: 0.2px;
+    animation: ServerLinesLight infinite 1s;
+}
+@keyframes ServerLinesLight{
+    to {
+        stroke-width: 1.7px;
+    }
+}
+#ServerLinesUp-Left159 {
+    stroke: white;
+    stroke-width: 0.2px;
+    animation: ServerLinesLight infinite 1s;
+}
+#ServerLinesUp-Left160 {
+    stroke: white;
+    stroke-width: 0.2px;
+    animation: ServerLinesLight infinite 1s;
+}
+#ServerLinesUp-Left161 {
+    stroke: white;
+    stroke-width: 0.2px;
+    animation: ServerLinesLight infinite 1s;
+}
+#ServerLinesUp-Left162 {
+    stroke: white;
+    stroke-width: 0.2px;
+    animation: ServerLinesLight infinite 1s;
+}
+#ServerLinesUp-Left163 {
+    stroke: white;
+    stroke-width: 0.2px;
+    animation: ServerLinesLight infinite 1s;
+}
+#ServerLines-LeftSide_203 {
+    stroke: white;
+    stroke-width: 0.2px;
+    animation: ServerThinLinesLight infinite 1s;
+}
+#ServerLines-LeftSide_204 {
+    stroke: white;
+    stroke-width: 0.2px;
+    animation: ServerThinLinesLight infinite 1s;
+}
+#ServerLines-LeftSide_205 {
+    stroke: white;
+    stroke-width: 0.2px;
+    animation: ServerThinLinesLight infinite 1s;
+}
+#ServerLines-LeftSide_206 {
+    stroke: white;
+    stroke-width: 0.2px;
+    animation: ServerThinLinesLight infinite 1s;
+}
+#ServerLines-LeftSide_207 {
+    stroke: white;
+    stroke-width: 0.2px;
+    animation: ServerThinLinesLight infinite 1s;
+}
+#ServerLines-LeftSide_208 {
+    stroke: white;
+    stroke-width: 0.2px;
+    animation: ServerThinLinesLight infinite 1s;
+}
+@keyframes ServerThinLinesLight {
+    to {
+        stroke-width: 1.1px;
+    }
+}
+.dotsServerLight {
+    animation: dotsServerLight 1s infinite;
+}
+.ServerDotLight-lineTop {
+    animation: dotsServerLight 3s infinite;
+}
+@keyframes dotsServerLight{
+    10%{
+        fill:white;
+    }
+    20% {
+        fill: #4B73FF;
+    }
+    30% {
+        fill: greenyellow;
+    }
+    40% {
+        fill: red;
+    }
+    50%, 100% {
+        fill: #4B73FF;
+    }
+
+}
+
+#ImagesText01, #ImagesText02, #ImagesText03 {
+    transform: translateY(30px);
+    opacity: 0;
+    animation: Window01Media infinite 2s;
+}
+#Header-Windw01 {
+    transform: translateY(30px);
+    opacity: 0;
+    animation: Window01Media infinite 2s;
+}
+@keyframes Window01Media{
+    to {
+        transform: translateY(0px);
+        opacity:1;
+    }
+}
+#Code {
+    opacity: 0;
+    transform: translateY(-20px);
+    animation: TextWindow02Media infinite 2s;
+}
+#window-2-blueText {
+    opacity: 0;
+    transform: translateX(20px);
+    animation: TextWindow02Media infinite 2s;
+}
+#window-2-redText {
+    opacity: 0;
+    transform: translateX(-20px);
+    animation: TextWindow02Media infinite 2s;
+}
+#window-2-lightBlueText {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: TextWindow02Media infinite 2s;
+}
+@keyframes TextWindow02Media {
+    90% {
+        transform: translateY(0px);
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+#Keyboard-Keys, #Vector_307 {
+    opacity: 0;
+    transform: translateY(10px);
+    animation: TextWindow02Media infinite 2s;
+}
+#window-2 {
+    opacity: 0;
+    transform: translateX(-10px);
+    animation: ScreenWindow infinite 2s;
+}
+#window-1 {
+    opacity: 0;
+    transform: translateX(10px);
+    animation: ScreenWindow infinite 2s;
+}
+@keyframes ScreenWindow{
+    to {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+#Device {
+    opacity: 0;
+    transform: translateY(-30px);
+    animation: SlideInAllWeb forwards 2s;
+}
+#BoxeshtmlCssJs {
+    opacity: 0;
+    transform: skewX(-90deg);
+    animation: SlideInAllWeb forwards 2s;
+}
+#Gears {
+    opacity: 0;
+    transform: skewX(-90deg);
+    animation: SlideInAllWeb forwards 2s;
+}
+#Server {
+    opacity: 0;
+    transform: skewX(-45deg);
+    animation: SlideInAllWeb forwards 2s;
+}
+@keyframes SlideInAllWeb {
+    to {
+        opacity: 1;
+        transform: translateY(0px);
+        transform: skewX(0deg);
+    }
+}
+.Gear_291 {
+    stroke: white;
+    stroke-dasharray: 50;
+    stroke-dashoffset: 10;
+    animation: Gear_291 2s infinite;
+}
+@keyframes Gear_291{
+    to {
+        stroke-dasharray: 0;
+        stroke-dashoffset: 0;
+    }
+}
+#Files {
+    opacity: 0;
+    transform: skewX(70deg);
+    animation: SlideInAllWeb forwards 2s;
+}
+#Cloud {
+    opacity: 0;
+    transform: skewX(90deg);
+    animation: SlideInAllWeb forwards 2s;
+}
+#cloudFace {
+    animation: cloudFace 2s infinite;
+}
+
+@keyframes cloudFace{
+    from {
+        transform: translateX(-5px);
+    }
+    to {
+        transform: translateX(0px);
+    }
+}
+#Shadows02, #Conection, #Plants {
+    transform: skewX(-150deg);
+    opacity: 0;
+    animation: Shadows02 forwards 2s;
+}
+@keyframes Shadows02{
+    to {
+        transform: skewX(0deg);
+        opacity: 1;
+    }
+}
+/*--------End Of AboutMe Animation
+---------------------------------*/
+

@@ -1,0 +1,631 @@
+@media screen and (min-width: 768px) and (max-width: 991.98px) {
+    /*Sidebar Navigation
+---------------------------*/
+    header {
+        width: 100%;
+    }
+    #SideNav {
+        height: 100%;
+        width: 45%;
+        margin-left: -1840px;
+        padding: 20px;
+        border-right: solid 1px white;
+    }
+
+    /*#LogoBtn {
+        transform: translateX(-100px);
+    }
+
+    #menuIcon {
+        transform: translateX(100px);
+    }*/
+
+    .scrollTracker {
+        margin-top: -114px;
+    }
+
+    /*BackToTopBtn*/
+    #TopBtn {
+    }
+
+    .topBtn {
+        animation: TopBtn forwards ease-in-out 1s;
+    }
+
+    /*HomePg-----------
+     -----------------*/
+    #HomePg {
+        overflow: hidden;
+        margin: 0 auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #HomePgWlMsg {
+        display: flex;
+        flex-direction: row;
+        overflow: hidden;
+        width: 100%;
+    }
+
+    #WelcomeMsgTextContainer {
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        padding: 25px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .WelcomeMsgTextContainer {
+        height: 800px;
+        width:50%;
+    }
+    .WelcomeMsglandingPageIcons {
+        animation: WelcomeMsg 3s ease forwards;
+    }
+    #Hello {
+        stroke: white;
+        stroke-dasharray: 135;
+        stroke-dashoffset: 46;
+        animation: MyNameTextAnimation 2s ease forwards, MyNameTextFillAnimation 3s ease forwards;
+    }
+
+    #Seun {
+        stroke: white;
+        stroke-dasharray: 110;
+        stroke-dashoffset: 14;
+        animation: MyNameTextAnimation 2s ease forwards, MyNameTextFillAnimation 3s ease forwards;
+    }
+
+    #designWebWelcomeMSGIconWrapper {
+        display: none;
+        margin-top: 50px;
+    }
+
+    .designWebWelcomeMSGIconWrapper {
+        animation: designWebWelcomeMSGIconWrapper 1s ease forwards;
+    }
+
+    #designWebWelcomeMSGIcons {
+        display: block;
+        margin: 0 auto;
+        margin-top: 10px;
+    }
+
+    #Container-ScrollIndicator {
+        display: block;
+        margin: 0 auto;
+        margin-top: 10px;
+    }
+
+    #ScrollDwn-KnowMe {
+        display: block;
+        margin: 0 auto;
+        margin-top: 15px;
+    }
+
+    #dotIndicatore {
+        animation: dotIndicatore 2s ease forwards;
+    }
+
+    #WelcomeIconsContainer {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -30px;
+        width: 50%;
+        transform:translateX(2%);
+        
+    }
+
+    #homePgSvgIcons {
+        margin-top: 60px;
+        margin-left: 800px;
+    }
+    .homePgSvgIcons {
+        animation: homePgSvgIcons 1s ease forwards;
+    }
+    /*AboutMe-----------
+     -----------------*/
+
+    .fade-in {
+        opacity: 0;
+        /*  opacity:0;
+        transition: opacity 1s ease-in;*/
+    }
+
+        .fade-in.appear {
+            /*opacity: 1;*/
+            animation: aboutMeFadeUp 250ms ease-in forwards;
+        }
+    #AboutMeContainer {
+        overflow: hidden;
+        width: 90%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border-bottom-left-radius: 25px;
+        border-bottom-right-radius: 25px;
+        padding: 8px;
+        padding-top: 15px;
+        margin-top: 80px;
+    }
+    #AboutMeTitle {
+    }
+
+    .aboutMeTitleFrom-Left {
+        transform: translateX(-50%);
+    }
+
+    .aboutMeText {
+        text-align: justify;
+    }
+
+    .aboutMeTextFrom-Right {
+        transform: translateX(50%);
+    }
+
+    .aboutMeTitleFrom-Left,
+    .aboutMeTextFrom-Right {
+        transition: opacity 500ms transform 2s ease-in;
+        opacity: 0;
+    }
+
+        .aboutMeTitleFrom-Left.appear,
+        .aboutMeTextFrom-Right.appear {
+            transform: translateX(0px);
+            opacity: 1;
+        }
+
+    .SlideIn {
+    }
+    #scrollAboutMobile {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #AboutMeContainerSkills {
+        overflow: hidden;
+        padding-top: 20px;
+        padding-left: 35px;
+        padding-right: 35px;
+        width: 100%;
+        border-bottom-left-radius: 25px;
+        border-bottom-right-radius: 25px;
+    }
+
+    #AboutMeSkillsWrapper {
+    }
+
+    #firsSkillsContainer {
+    }
+
+    #secondSkillsContainer {
+    }
+
+    .SvgSkillsIcons {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom: 15px;
+    }
+    /*Background Stripes*/
+    .bgStripe {
+        animation: HomePgBackgroundAnimation 3s ease-in-out infinite alternate;
+        background-image: linear-gradient(-60deg, #1b6ec2 50%, #09f 50%);
+        bottom: 0;
+        left: -45%;
+        opacity: 0.5;
+        position: fixed;
+        right: -250%;
+        top: 0;
+        z-index: -1;
+    }
+
+    .bgStripe2 {
+        animation-direction: alternate-reverse;
+        animation-duration: 4s;
+    }
+
+    .bgStripe3 {
+        animation-duration: 5s;
+    }
+    /*PortfolioProjects--
+    -------------------*/
+    #PortfolioProjects-Container {
+        max-width: 100%;
+        overflow: hidden;
+    }
+
+    #PortfolioProjects-List {
+        overflow: hidden;
+        max-width: 100%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    /*ProjectItem-Card*/
+    .ProjectItem {
+        border-bottom: 4px white solid;
+        overflow: hidden;
+        /*max-width: 700px;*/
+        /*height: 450px;*/
+        max-width: 95%;
+        margin-top: 30px;
+        margin-bottom: 50px;
+        padding: 10px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        transform: translateX(50%);
+        opacity: 0;
+    }
+    .FromLeft-ProjectItem {
+        transform: translateX(-50%);
+    }
+
+    .showCenterProjectItem {
+        animation: centerProjectItem 1s ease forwards;
+        transition: opacity 1s transform 1s ease-in;
+    }
+
+    @keyframes centerProjectItem {
+        to {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            opacity: 1;
+            transform: translateX(0%);
+        }
+    }
+    #ProjectItemVideo {
+    }
+
+    #projectContent {
+        display: flex;
+        flex-direction: row;
+        margin-top: -40px
+    }
+
+    #projectContent-Mobile {
+        margin-top: 100px;
+        display: flex;
+        margin-left: 30px
+    }
+
+    .VideoMobileProjectItem {
+        /*height: 450px;*/
+    }
+
+    .MobileProjectItem {
+        /*height: 550px;*/
+    }
+
+    .ImgProjectCard {
+        max-width:55%;
+        height:200px;
+    }
+
+    .ImgProjectCardOne {
+        max-width: 350px;
+        max-height: 350px;
+    }
+
+    .Info_ProjectItem {
+        margin-top: 100px;
+        margin-left: 20px;
+    }
+
+    .MobileInfo_ProjectItem {
+        max-width: 400px;
+    }
+
+    .projectText {
+        font-weight: bold;
+    }
+
+    .viewProjectBtn {
+        max-width: 30%;
+        display: block;
+        /*margin-left: 365px;*/
+        /* margin-top: 40px;*/
+        color: #4B73FF;
+        background-color: white;
+        border-radius: 30px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top:20px;
+    }
+
+    .MobileviewProjectBtn {
+        /*margin-top: -160px;*/
+    }
+    .MobileviewProjectBtnSecond {
+        /*margin-top: -120px;*/
+    }
+    .VidBtn {
+        /*margin-top: 40px;*/
+    }
+    .VPFirstBtn {
+        /*margin-top: 40px;*/
+    }
+
+
+    #SVGPortfolioProjects {
+        z-index: -1;
+        position: relative;
+        margin-top: -4130px;
+    }
+    /*Project_DefaultPg-----
+    ----------------------*/
+    #projectPageContainer {
+        max-width: 100%;
+    }
+
+    #projectPageContent_Container {
+    }
+
+    .ProjectTitleContainer {
+        padding: 10px;
+        margin-top: -15px;
+    }
+
+    .projectTitle {
+        margin-top: 10px;
+    }
+
+    .briefHeading {
+        margin-left: 10px;
+    }
+
+    .videoProjectOne {
+        display: block;
+        margin: auto;
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+        z-index: -100;
+    }
+
+    .videoProjectLaptop {
+        display: block;
+        margin: auto;
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+
+
+    .ProjectSummary_Container {
+        max-width: 100%;
+        overflow: hidden;
+        margin-top: 20px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom: 40px;
+    }
+    .briefText {
+        text-align: justify;
+        font-size: 16px;
+        margin-left: 10px;
+        max-width: 95%;
+    }
+    .BackToListBtn {
+        max-width: 30%;
+        border-radius: 30px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: white;
+        color: #4B73FF;
+        font-weight: bold;
+    }
+     /*Project_OnePg---------
+    ----------------------*/
+    .projectPageContainerOne{
+        padding-bottom:200px;
+    }
+
+   /*UX-Project_Default-LayoutPg--
+    -----------------------------*/
+
+    /*--ProjectFinalOutcome_UXWireFrames--*/
+    #ProjectFinalOutcome_UXWireFramesContainer {
+        overflow: hidden;
+        width: 100%;
+        padding:20px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #ProjectFinalOutcome_Layout {
+        display: flex;
+        flex-direction: row;
+    }
+
+        #ProjectFinalOutcome_Layout.ProjectFinalOutcome_LayoutEx {
+            display: flex;
+            flex-direction: column;
+        }
+
+    .videoProjectMobileUx {
+        margin-top: 30px;
+    }
+
+    #TwoProjectSummary_Container {
+        width: 100%;
+        display:flex;
+        flex-direction:column;
+        margin-top:30px;
+    }
+    /*--ReDo UX Content--*/
+    #UXWireframes-Container {
+        overflow: hidden;
+        width: 100%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top:100px;
+    }
+    /*caseStudySummary*/
+    #caseStudySummary-Container {
+        width: 100%;
+        height: 200px;
+        padding: 8px;
+        opacity: 0;
+    }
+    .caseStudy {
+        animation: caseStudySummary 0.5s ease-in forwards;
+    }
+
+    @keyframes caseStudySummary {
+        from {
+            margin-top: 50px;
+            opacity: 0;
+        }
+
+        to {
+            margin-top: 0px;
+            opacity: 1;
+        }
+    }
+    #caseStudySummary-PText {
+        width:80%;
+        text-align: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #imageUX_TwoContainer {
+        /*display: flex;
+        flex-direction: row;*/
+        padding:10px;
+    }
+    .imageUX {
+        width: 35%;
+        max-height: 650px;
+        margin: 30px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        /* max-height: 400px;
+        margin: 30px;
+        margin-top: 0px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding:10px;*/
+    }
+    .laptopimageUX {
+        width: 80%;
+        /*max-height: 180px;*/
+        margin-top: 155px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #laptopimageUXCaseStudy.laptopimageUX{
+        margin-top:-10px;
+    }
+    .imageUXMobileSize {
+        margin-top: -10px;
+        width: 60%;
+    }
+    /*UXWireframesContent*/
+    #UXWireframesContent-Container {
+        width: 100%;
+        overflow: hidden;
+        padding: 30px;
+        /*margin-top:300px;*/
+    }
+    .UXWireframes-ContainerFive {
+        margin-top: 200px;
+    }
+    /*.UXWireframes-ContainerFour {
+        margin-top: 200px;
+    }*/
+    .UXWireframes-ContainerThree {
+        margin-top: -50px;
+    }
+    .UXWireframes-ContainerTwo {
+        margin-top: 550px;
+    }
+    /*Rows*/
+    .RowUXWireframes {
+        width: 100%;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+
+     .RowUXWireframes:nth-child(even) {
+        transform: translateX(100%);
+    }
+
+    .RowUX {
+        animation: RowUX 0.5s ease-in forwards;
+    }
+
+    @keyframes RowUX {
+        to {
+            transform: translateX(0%);
+            opacity: 1;
+        }
+    }
+    .Text_UXWireframes-Container {
+        /*max-width: 55%;
+        margin-top:160px;*/
+        text-align:center;
+        margin-top:50px;
+    }
+    .Text_UXWireframesMobile-Container {
+        margin-top: -40px;
+    }
+    .Text-UXWireframes {
+        width: 60%;
+        /*width: 320px;*/
+        text-align: justify;
+        text-align: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /*UX-Project-2_DefaultPg--
+    ------------------------*/
+    .projectPageContainerTwo {
+        padding-bottom: 50px;
+    }
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+
+
+
+    
+}
